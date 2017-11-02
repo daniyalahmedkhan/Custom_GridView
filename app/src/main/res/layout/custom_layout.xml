@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/pets_tab"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/dog_one"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dog One"
+        android:textColor="#000"
+        android:id="@+id/TextView"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        />
+    </RelativeLayout>
+
+</RelativeLayout>
