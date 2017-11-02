@@ -6,15 +6,21 @@
     android:layout_height="match_parent"
     tools:context="com.example.kashif.gridview.MainActivity">
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        >
+
     <GridView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:columnWidth="100dp"
         android:id="@+id/gridView"
         android:numColumns="2"
-        android:layout_centerHorizontal="true"
-        android:stretchMode="columnWidth"
-        android:layout_centerInParent="true"
+
+
         ></GridView>
+
+    </RelativeLayout>
 
 </RelativeLayout>
